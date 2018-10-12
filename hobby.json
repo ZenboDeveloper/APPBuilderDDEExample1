@@ -1,0 +1,632 @@
+{
+    "project": {
+        "uid": 12287,
+        "name": "New Project",
+        "config": {
+            "layout": [
+                {
+                    "ui": [],
+                    "id": "743de810-c160-11e6-b705-678e04c37b93",
+                    "index": 1,
+                    "backgroundColor": "0xffffff",
+                    "event": [],
+                    "name": "scene1",
+                    "showEffect": "fadeIn",
+                    "type": "scene",
+                    "hideEffect": "fadeOut"
+                }
+            ],
+            "library": [
+                {
+                    "content": {
+                        "training": [],
+                        "classes": [
+                            {
+                                "id": "動作",
+                                "dynamicSlot": "false",
+                                "parent": [],
+                                "type": "class",
+                                "instances": [],
+                                "classSyno": []
+                            },
+                            {
+                                "id": "事件",
+                                "dynamicSlot": "false",
+                                "parent": [],
+                                "type": "class",
+                                "instances": [
+                                    {
+                                        "id": "我很喜歡",
+                                        "instanceSyno": [
+                                            {
+                                                "syno": [
+                                                    {
+                                                        "id": "32fff650-bd30-11e8-8431-05f62bc41cf7",
+                                                        "value": "我很喜歡",
+                                                        "type": "plain"
+                                                    }
+                                                ],
+                                                "lang": "allLanguage"
+                                            }
+                                        ],
+                                        "prop": []
+                                    }
+                                ],
+                                "classSyno": []
+                            },
+                            {
+                                "id": "action_type",
+                                "type": "class",
+                                "parent": [],
+                                "instances": [
+                                    {
+                                        "id": "typeSing",
+                                        "prop": [],
+                                        "instanceSyno": [
+                                            {
+                                                "syno": [
+                                                    {
+                                                        "type": "plain",
+                                                        "value": "唱歌",
+                                                        "id": "fc3b4570-bd30-11e8-8431-05f62bc41cf7"
+                                                    },
+                                                    {
+                                                        "type": "plain",
+                                                        "value": "歌唱",
+                                                        "id": "fd7c02d0-bd30-11e8-8431-05f62bc41cf7"
+                                                    }
+                                                ],
+                                                "lang": "allLanguage"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "typeDance",
+                                        "prop": [],
+                                        "instanceSyno": [
+                                            {
+                                                "syno": [
+                                                    {
+                                                        "type": "plain",
+                                                        "value": "跳舞",
+                                                        "id": "ff993d80-bd30-11e8-8431-05f62bc41cf7"
+                                                    },
+                                                    {
+                                                        "type": "plain",
+                                                        "value": "舞蹈",
+                                                        "id": "009c2e90-bd30-11e8-8431-05f62bc41cf7"
+                                                    }
+                                                ],
+                                                "lang": "allLanguage"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "dynamicSlot": "false",
+                                "classSyno": []
+                            }
+                        ],
+                        "tts": [
+                            {
+                                "id": "NewNode1",
+                                "sentences": [],
+                                "language": "detectedByTheSystem"
+                            }
+                        ],
+                        "utterances": [
+                            {
+                                "id": "UtteranceToLanuchApp",
+                                "sentences": [
+                                    [
+                                        {
+                                            "id": "b0e431d0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "value": "我要用",
+                                            "type": "plain"
+                                        },
+                                        {
+                                            "id": "b147d5a0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": true,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "BrandName"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        },
+                                        {
+                                            "id": "b2daaaa0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "VoiceTag"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        },
+                                        {
+                                            "id": "b4be85d0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": true,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "動作"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        },
+                                        {
+                                            "id": "b637b850-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": true,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "事件"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "id": "a45adad0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": true,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "BrandName"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        },
+                                        {
+                                            "id": "a6b23850-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "VoiceTag"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        },
+                                        {
+                                            "id": "a92e0dc0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "value": "我要",
+                                            "type": "plain"
+                                        },
+                                        {
+                                            "id": "aa7337f0-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "動作"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        },
+                                        {
+                                            "id": "abfd0c40-0f80-11e7-9e88-ffa9ce81ea86",
+                                            "belief": "",
+                                            "order": true,
+                                            "phraseBeliefSet": [],
+                                            "exceptionsSet": "",
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "事件"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "focus": "",
+                                            "type": "syntax"
+                                        }
+                                    ]
+                                ],
+                                "language": "detectedByTheSystem"
+                            },
+                            {
+                                "id": "ex.hear_action_sentence",
+                                "language": "detectedByTheSystem",
+                                "sentences": [
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "你有聽到嗎",
+                                            "id": "c622da20-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "你有在聽嗎",
+                                            "id": "caed8190-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "你聽到了嗎",
+                                            "id": "d10d31b0-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "id": "ex.type_action_sentence",
+                                "language": "detectedByTheSystem",
+                                "sentences": [
+                                    [
+                                        {
+                                            "belief": "type_key",
+                                            "order": true,
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "action_type"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "exceptionsSet": "",
+                                            "focus": "",
+                                            "phraseBeliefSet": [],
+                                            "type": "syntax",
+                                            "id": "0da5bca0-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "我很喜歡",
+                                            "id": "2e6cd9a0-bd30-11e8-8431-05f62bc41cf7"
+                                        },
+                                        {
+                                            "belief": "type_key",
+                                            "order": true,
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "action_type"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "exceptionsSet": "",
+                                            "focus": "",
+                                            "phraseBeliefSet": [],
+                                            "type": "syntax",
+                                            "id": "1ab95cd0-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "我喜歡",
+                                            "id": "367e95c0-bd30-11e8-8431-05f62bc41cf7"
+                                        },
+                                        {
+                                            "belief": "type_key",
+                                            "order": true,
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "action_type"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "exceptionsSet": "",
+                                            "focus": "",
+                                            "phraseBeliefSet": [],
+                                            "type": "syntax",
+                                            "id": "2ff12fb1-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "我很愛",
+                                            "id": "42eeca00-bd30-11e8-8431-05f62bc41cf7"
+                                        },
+                                        {
+                                            "belief": "type_key",
+                                            "order": true,
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "action_type"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "exceptionsSet": "",
+                                            "focus": "",
+                                            "phraseBeliefSet": [],
+                                            "type": "syntax",
+                                            "id": "414a68d1-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type": "plain",
+                                            "value": "我愛",
+                                            "id": "3e8cf680-bd30-11e8-8431-05f62bc41cf7"
+                                        },
+                                        {
+                                            "belief": "type_key",
+                                            "order": true,
+                                            "optional": false,
+                                            "value": {
+                                                "ref": {
+                                                    "value": "",
+                                                    "class": "action_type"
+                                                }
+                                            },
+                                            "exceptionSet": [],
+                                            "exceptionsSet": "",
+                                            "focus": "",
+                                            "phraseBeliefSet": [],
+                                            "type": "syntax",
+                                            "id": "3782bf51-bd30-11e8-8431-05f62bc41cf7"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ],
+                        "relations": [],
+                        "inAppQA": [],
+                        "properties": []
+                    },
+                    "id": "lib-1",
+                    "source": {
+                        "zh_TW": {},
+                        "en_US": {}
+                    },
+                    "name": "agent-based ontology",
+                    "type": "agent_entity"
+                }
+            ],
+            "flow": [
+                {
+                    "id": "743de810-c160-11e6-b705-678e04c37b93",
+                    "units": [
+                        {
+                            "beliefClarificationTimes": "",
+                            "advanceSettingForActions": false,
+                            "advanceSettingForBelief": false,
+                            "beliefs": [],
+                            "events": [
+                                {
+                                    "id": "58edd9f0-bd30-11e8-8431-05f62bc41cf7",
+                                    "prop": {
+                                        "type": "csr",
+                                        "utterance": "UtteranceToLanuchApp"
+                                    }
+                                }
+                            ],
+                            "goto": [],
+                            "type": "intention",
+                            "ttsForBeliefClarificationFailure": [],
+                            "id": "LaunchApp",
+                            "description": "",
+                            "priority": "normal",
+                            "action": "user-defined-action-id",
+                            "inputCxts": [],
+                            "hook": "",
+                            "posy": 59,
+                            "isCrossPlan": "true",
+                            "posx": -31,
+                            "label": "Plan",
+                            "focusBeliefDuringClarification": "false",
+                            "units": [],
+                            "beliefClarificationContext": [],
+                            "input": [],
+                            "setBelief": "",
+                            "functionName": [],
+                            "comment": "This plan is used to launch the app",
+                            "output": [],
+                            "crossType": "alwaysLaunch",
+                            "actions": [],
+                            "timeout": -1
+                        },
+                        {
+                            "beliefClarificationTimes": "",
+                            "advanceSettingForActions": false,
+                            "advanceSettingForBelief": false,
+                            "beliefs": [],
+                            "events": [
+                                {
+                                    "id": "498fb810-bd30-11e8-8431-05f62bc41cf7",
+                                    "prop": {
+                                        "type": "csr",
+                                        "utterance": "ex.hear_action_sentence"
+                                    }
+                                }
+                            ],
+                            "goto": [],
+                            "type": "intention",
+                            "ttsForBeliefClarificationFailure": [],
+                            "id": "ex.hear_action",
+                            "description": "",
+                            "priority": "normal",
+                            "action": "user-defined-action-id",
+                            "inputCxts": [
+                                "when_hear"
+                            ],
+                            "hook": "",
+                            "posy": 59,
+                            "isCrossPlan": "false",
+                            "posx": -31,
+                            "label": "Plan",
+                            "focusBeliefDuringClarification": "false",
+                            "units": [],
+                            "beliefClarificationContext": [],
+                            "input": [],
+                            "setBelief": "",
+                            "functionName": [],
+                            "comment": "",
+                            "output": [],
+                            "crossType": "alwaysLaunch",
+                            "actions": [],
+                            "timeout": -1
+                        },
+                        {
+                            "comment": "",
+                            "beliefClarificationTimes": "",
+                            "functionName": [],
+                            "beliefs": [
+                                {
+                                    "class": [
+                                        "action_type"
+                                    ],
+                                    "required": "required",
+                                    "multiValue": false,
+                                    "homonym": false,
+                                    "unNormalizedInfo": false,
+                                    "defaultValue": "",
+                                    "key": "type_key",
+                                    "prompts": []
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "id": "aaf7be50-bd30-11e8-8431-05f62bc41cf7",
+                                    "prop": {
+                                        "type": "csr",
+                                        "utterance": "ex.type_action_sentence"
+                                    }
+                                }
+                            ],
+                            "posy": 59,
+                            "posx": -31,
+                            "label": "Plan",
+                            "goto": [],
+                            "type": "intention",
+                            "units": [],
+                            "id": "ex.type_action",
+                            "input": [],
+                            "description": "",
+                            "priority": "normal",
+                            "action": "user-defined-action-id",
+                            "setBelief": "",
+                            "output": [],
+                            "actions": [],
+                            "inputCxts": [
+                                "input_type"
+                            ],
+                            "beliefClarificationContext": [],
+                            "timeout": -1,
+                            "isCrossPlan": "false",
+                            "crossType": "alwaysLaunch",
+                            "focusBeliefDuringClarification": "false",
+                            "ttsForBeliefClarificationFailure": [],
+                            "advanceSettingForActions": false,
+                            "advanceSettingForBelief": false,
+                            "hook": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "env": {
+            "orientation": "landscape",
+            "voiceTags": [],
+            "conceptLang": "true",
+            "nicknameValue": "",
+            "developerId": "",
+            "publishTime": "2018-10-11 12:09:54",
+            "nickname": "false",
+            "registerBackgroundContext": "false",
+            "initScene": "743de810-c160-11e6-b705-678e04c37b93",
+            "autoSave": "true",
+            "appNames": [
+                {
+                    "name": "聊興趣",
+                    "lang": "zh_TW"
+                },
+                {
+                    "name": "",
+                    "lang": "en_US"
+                }
+            ],
+            "width": 880,
+            "productDomain": "com.asus.robot.appbuilder.hobby",
+            "apkOrSkill": "apk",
+            "fullLaunchActivityName": false,
+            "translateAllTWIntentIntoCN": "true",
+            "deactiveAction": "quit",
+            "productId": "14009",
+            "builderVer": "v2.0.5",
+            "mode": {
+                "key": "84e4c680-bd30-11e8-8431-05f62bc41cf7",
+                "type": "normal",
+                "timestamp": "1539230999272"
+            },
+            "height": 1280,
+            "newMachineLearning": "true",
+            "launchActivity": "",
+            "emailsForPublishingNotification": [],
+            "brand": "",
+            "g11nDefault": "en_US",
+            "appUUID": "51A40AFEA38B46FDA615015FD1B63D94"
+        },
+        "pref": {},
+        "info": {
+            "cover": "",
+            "description": "",
+            "editedTime": "2018-10-11 12:10",
+            "version": "0,0,1"
+        },
+        "testscript": [],
+        "modified_table": {
+            "projectId": "12287",
+            "allPublish": "false"
+        }
+    }
+}
