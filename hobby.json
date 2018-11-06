@@ -1,7 +1,7 @@
 {
     "project": {
-        "uid": 12287,
-        "name": "New Project",
+        "uid": 12807,
+        "name": "MyHobby",
         "config": {
             "layout": [
                 {
@@ -56,53 +56,53 @@
                             },
                             {
                                 "id": "action_type",
-                                "type": "class",
+                                "dynamicSlot": "false",
                                 "parent": [],
+                                "type": "class",
                                 "instances": [
                                     {
                                         "id": "typeSing",
-                                        "prop": [],
                                         "instanceSyno": [
                                             {
                                                 "syno": [
                                                     {
-                                                        "type": "plain",
+                                                        "id": "fc3b4570-bd30-11e8-8431-05f62bc41cf7",
                                                         "value": "唱歌",
-                                                        "id": "fc3b4570-bd30-11e8-8431-05f62bc41cf7"
+                                                        "type": "plain"
                                                     },
                                                     {
-                                                        "type": "plain",
+                                                        "id": "fd7c02d0-bd30-11e8-8431-05f62bc41cf7",
                                                         "value": "歌唱",
-                                                        "id": "fd7c02d0-bd30-11e8-8431-05f62bc41cf7"
+                                                        "type": "plain"
                                                     }
                                                 ],
                                                 "lang": "allLanguage"
                                             }
-                                        ]
+                                        ],
+                                        "prop": []
                                     },
                                     {
                                         "id": "typeDance",
-                                        "prop": [],
                                         "instanceSyno": [
                                             {
                                                 "syno": [
                                                     {
-                                                        "type": "plain",
+                                                        "id": "ff993d80-bd30-11e8-8431-05f62bc41cf7",
                                                         "value": "跳舞",
-                                                        "id": "ff993d80-bd30-11e8-8431-05f62bc41cf7"
+                                                        "type": "plain"
                                                     },
                                                     {
-                                                        "type": "plain",
+                                                        "id": "009c2e90-bd30-11e8-8431-05f62bc41cf7",
                                                         "value": "舞蹈",
-                                                        "id": "009c2e90-bd30-11e8-8431-05f62bc41cf7"
+                                                        "type": "plain"
                                                     }
                                                 ],
                                                 "lang": "allLanguage"
                                             }
-                                        ]
+                                        ],
+                                        "prop": []
                                     }
                                 ],
-                                "dynamicSlot": "false",
                                 "classSyno": []
                             }
                         ],
@@ -272,39 +272,41 @@
                             },
                             {
                                 "id": "ex.hear_action_sentence",
-                                "language": "detectedByTheSystem",
                                 "sentences": [
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "c622da20-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "你有聽到嗎",
-                                            "id": "c622da20-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         }
                                     ],
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "caed8190-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "你有在聽嗎",
-                                            "id": "caed8190-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         }
                                     ],
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "d10d31b0-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "你聽到了嗎",
-                                            "id": "d10d31b0-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         }
                                     ]
-                                ]
+                                ],
+                                "language": "zh_TW"
                             },
                             {
                                 "id": "ex.type_action_sentence",
-                                "language": "detectedByTheSystem",
                                 "sentences": [
                                     [
                                         {
+                                            "id": "0da5bca0-bd30-11e8-8431-05f62bc41cf7",
                                             "belief": "type_key",
                                             "order": true,
+                                            "exceptionsSet": "",
+                                            "phraseBeliefSet": [],
                                             "optional": false,
                                             "value": {
                                                 "ref": {
@@ -313,22 +315,22 @@
                                                 }
                                             },
                                             "exceptionSet": [],
-                                            "exceptionsSet": "",
                                             "focus": "",
-                                            "phraseBeliefSet": [],
-                                            "type": "syntax",
-                                            "id": "0da5bca0-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "syntax"
                                         }
                                     ],
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "2e6cd9a0-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "我很喜歡",
-                                            "id": "2e6cd9a0-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         },
                                         {
+                                            "id": "1ab95cd0-bd30-11e8-8431-05f62bc41cf7",
                                             "belief": "type_key",
                                             "order": true,
+                                            "exceptionsSet": "",
+                                            "phraseBeliefSet": [],
                                             "optional": false,
                                             "value": {
                                                 "ref": {
@@ -337,22 +339,22 @@
                                                 }
                                             },
                                             "exceptionSet": [],
-                                            "exceptionsSet": "",
                                             "focus": "",
-                                            "phraseBeliefSet": [],
-                                            "type": "syntax",
-                                            "id": "1ab95cd0-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "syntax"
                                         }
                                     ],
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "367e95c0-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "我喜歡",
-                                            "id": "367e95c0-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         },
                                         {
+                                            "id": "2ff12fb1-bd30-11e8-8431-05f62bc41cf7",
                                             "belief": "type_key",
                                             "order": true,
+                                            "exceptionsSet": "",
+                                            "phraseBeliefSet": [],
                                             "optional": false,
                                             "value": {
                                                 "ref": {
@@ -361,22 +363,22 @@
                                                 }
                                             },
                                             "exceptionSet": [],
-                                            "exceptionsSet": "",
                                             "focus": "",
-                                            "phraseBeliefSet": [],
-                                            "type": "syntax",
-                                            "id": "2ff12fb1-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "syntax"
                                         }
                                     ],
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "42eeca00-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "我很愛",
-                                            "id": "42eeca00-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         },
                                         {
+                                            "id": "414a68d1-bd30-11e8-8431-05f62bc41cf7",
                                             "belief": "type_key",
                                             "order": true,
+                                            "exceptionsSet": "",
+                                            "phraseBeliefSet": [],
                                             "optional": false,
                                             "value": {
                                                 "ref": {
@@ -385,22 +387,22 @@
                                                 }
                                             },
                                             "exceptionSet": [],
-                                            "exceptionsSet": "",
                                             "focus": "",
-                                            "phraseBeliefSet": [],
-                                            "type": "syntax",
-                                            "id": "414a68d1-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "syntax"
                                         }
                                     ],
                                     [
                                         {
-                                            "type": "plain",
+                                            "id": "3e8cf680-bd30-11e8-8431-05f62bc41cf7",
                                             "value": "我愛",
-                                            "id": "3e8cf680-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "plain"
                                         },
                                         {
+                                            "id": "3782bf51-bd30-11e8-8431-05f62bc41cf7",
                                             "belief": "type_key",
                                             "order": true,
+                                            "exceptionsSet": "",
+                                            "phraseBeliefSet": [],
                                             "optional": false,
                                             "value": {
                                                 "ref": {
@@ -409,14 +411,12 @@
                                                 }
                                             },
                                             "exceptionSet": [],
-                                            "exceptionsSet": "",
                                             "focus": "",
-                                            "phraseBeliefSet": [],
-                                            "type": "syntax",
-                                            "id": "3782bf51-bd30-11e8-8431-05f62bc41cf7"
+                                            "type": "syntax"
                                         }
                                     ]
-                                ]
+                                ],
+                                "language": "zh_TW"
                             }
                         ],
                         "relations": [],
@@ -445,8 +445,8 @@
                                 {
                                     "id": "58edd9f0-bd30-11e8-8431-05f62bc41cf7",
                                     "prop": {
-                                        "type": "csr",
-                                        "utterance": "UtteranceToLanuchApp"
+                                        "utterance": "UtteranceToLanuchApp",
+                                        "type": "csr"
                                     }
                                 }
                             ],
@@ -468,7 +468,12 @@
                             "beliefClarificationContext": [],
                             "input": [],
                             "setBelief": "",
-                            "functionName": [],
+                            "functionName": [
+                                {
+                                    "name": "hobby",
+                                    "lang": "en"
+                                }
+                            ],
                             "comment": "This plan is used to launch the app",
                             "output": [],
                             "crossType": "alwaysLaunch",
@@ -484,8 +489,8 @@
                                 {
                                     "id": "498fb810-bd30-11e8-8431-05f62bc41cf7",
                                     "prop": {
-                                        "type": "csr",
-                                        "utterance": "ex.hear_action_sentence"
+                                        "utterance": "ex.hear_action_sentence",
+                                        "type": "csr"
                                     }
                                 }
                             ],
@@ -509,66 +514,180 @@
                             "beliefClarificationContext": [],
                             "input": [],
                             "setBelief": "",
-                            "functionName": [],
+                            "functionName": [
+                                {
+                                    "name": "hear action",
+                                    "lang": "en"
+                                },
+                                {
+                                    "name": "聽到",
+                                    "lang": "zh"
+                                }
+                            ],
                             "comment": "",
                             "output": [],
                             "crossType": "alwaysLaunch",
-                            "actions": [],
+                            "actions": [
+                                {
+                                    "keepRadio": "false",
+                                    "condition": {
+                                        "settings": {
+                                            "root": {
+                                                "system_response": [
+                                                    ""
+                                                ],
+                                                "NOT": false,
+                                                "nodes": [],
+                                                "context": [
+                                                    ""
+                                                ],
+                                                "left": "",
+                                                "type": "Always",
+                                                "right": "",
+                                                "operator": "Always"
+                                            }
+                                        },
+                                        "newSettings": []
+                                    },
+                                    "outputCxts": [
+                                        "when_hear"
+                                    ],
+                                    "tasks": [
+                                        {
+                                            "id": "3b045561-bd30-11e8-e366-17a1ce88b1f5",
+                                            "prop": {
+                                                "propArray": [
+                                                    {
+                                                        "text": "I hear you",
+                                                        "ttsType": "text",
+                                                        "ttsSelector": "NewNode1",
+                                                        "lang": "1"
+                                                    },
+                                                    {
+                                                        "text": "我聽到你了",
+                                                        "ttsType": "text",
+                                                        "ttsSelector": "NewNode1",
+                                                        "lang": "0"
+                                                    }
+                                                ],
+                                                "type": "tts"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
                             "timeout": -1
                         },
                         {
-                            "comment": "",
                             "beliefClarificationTimes": "",
-                            "functionName": [],
+                            "advanceSettingForActions": false,
                             "beliefs": [
                                 {
+                                    "homonym": false,
+                                    "unNormalizedInfo": false,
+                                    "prompts": [],
                                     "class": [
                                         "action_type"
                                     ],
-                                    "required": "required",
                                     "multiValue": false,
-                                    "homonym": false,
-                                    "unNormalizedInfo": false,
+                                    "required": "notRequired",
                                     "defaultValue": "",
-                                    "key": "type_key",
-                                    "prompts": []
+                                    "key": "type_key"
                                 }
                             ],
+                            "advanceSettingForBelief": false,
                             "events": [
                                 {
                                     "id": "aaf7be50-bd30-11e8-8431-05f62bc41cf7",
                                     "prop": {
-                                        "type": "csr",
-                                        "utterance": "ex.type_action_sentence"
+                                        "utterance": "ex.type_action_sentence",
+                                        "type": "csr"
                                     }
                                 }
                             ],
-                            "posy": 59,
-                            "posx": -31,
-                            "label": "Plan",
                             "goto": [],
                             "type": "intention",
-                            "units": [],
+                            "ttsForBeliefClarificationFailure": [],
                             "id": "ex.type_action",
-                            "input": [],
-                            "description": "",
                             "priority": "normal",
+                            "description": "",
                             "action": "user-defined-action-id",
-                            "setBelief": "",
-                            "output": [],
-                            "actions": [],
                             "inputCxts": [
                                 "input_type"
                             ],
-                            "beliefClarificationContext": [],
-                            "timeout": -1,
+                            "hook": "",
+                            "posy": 59,
                             "isCrossPlan": "false",
-                            "crossType": "alwaysLaunch",
+                            "posx": -31,
+                            "label": "Plan",
                             "focusBeliefDuringClarification": "false",
-                            "ttsForBeliefClarificationFailure": [],
-                            "advanceSettingForActions": false,
-                            "advanceSettingForBelief": false,
-                            "hook": ""
+                            "units": [],
+                            "beliefClarificationContext": [],
+                            "input": [],
+                            "setBelief": "",
+                            "output": [],
+                            "comment": "",
+                            "functionName": [
+                                {
+                                    "name": "hobby type",
+                                    "lang": "en"
+                                },
+                                {
+                                    "name": "嗜好類型",
+                                    "lang": "zh"
+                                }
+                            ],
+                            "crossType": "alwaysLaunch",
+                            "timeout": -1,
+                            "actions": [
+                                {
+                                    "keepRadio": "false",
+                                    "condition": {
+                                        "settings": {
+                                            "root": {
+                                                "system_response": [
+                                                    ""
+                                                ],
+                                                "NOT": false,
+                                                "nodes": [],
+                                                "context": [
+                                                    ""
+                                                ],
+                                                "left": "",
+                                                "type": "Always",
+                                                "right": "",
+                                                "operator": "Always"
+                                            }
+                                        },
+                                        "newSettings": []
+                                    },
+                                    "outputCxts": [
+                                        "input_type"
+                                    ],
+                                    "tasks": [
+                                        {
+                                            "id": "c79745a0-bd30-11e8-e366-17a1ce88b1f5",
+                                            "prop": {
+                                                "propArray": [
+                                                    {
+                                                        "text": "hobby type",
+                                                        "ttsType": "text",
+                                                        "ttsSelector": "NewNode1",
+                                                        "lang": "1"
+                                                    },
+                                                    {
+                                                        "text": "嗜好類型",
+                                                        "ttsType": "text",
+                                                        "ttsSelector": "NewNode1",
+                                                        "lang": "0"
+                                                    }
+                                                ],
+                                                "type": "tts"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -580,14 +699,14 @@
             "conceptLang": "true",
             "nicknameValue": "",
             "developerId": "",
-            "publishTime": "2018-10-11 12:09:54",
+            "publishTime": "2018-11-06 23:53:26",
             "nickname": "false",
             "registerBackgroundContext": "false",
             "initScene": "743de810-c160-11e6-b705-678e04c37b93",
             "autoSave": "true",
             "appNames": [
                 {
-                    "name": "聊興趣",
+                    "name": "嗜好",
                     "lang": "zh_TW"
                 },
                 {
@@ -601,12 +720,12 @@
             "fullLaunchActivityName": false,
             "translateAllTWIntentIntoCN": "true",
             "deactiveAction": "quit",
-            "productId": "14009",
+            "productId": "14025",
             "builderVer": "v2.0.5",
             "mode": {
-                "key": "84e4c680-bd30-11e8-8431-05f62bc41cf7",
+                "timestamp": "1541519606597",
                 "type": "normal",
-                "timestamp": "1539230999272"
+                "key": "1928f750-bd30-11e8-e366-17a1ce88b1f5"
             },
             "height": 1280,
             "newMachineLearning": "true",
@@ -614,19 +733,19 @@
             "emailsForPublishingNotification": [],
             "brand": "",
             "g11nDefault": "en_US",
-            "appUUID": "51A40AFEA38B46FDA615015FD1B63D94"
+            "appUUID": "0ACFD4B5E0C14E008AC21BE62B373A2C"
         },
         "pref": {},
         "info": {
             "cover": "",
             "description": "",
-            "editedTime": "2018-10-11 12:10",
+            "editedTime": "2018-11-06 23:55",
             "version": "0,0,1"
         },
         "testscript": [],
         "modified_table": {
-            "projectId": "12287",
-            "allPublish": "false"
+            "allPublish": "true",
+            "projectId": "12807"
         }
     }
 }
